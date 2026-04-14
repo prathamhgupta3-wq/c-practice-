@@ -1,0 +1,35 @@
+#include<stdio.h>
+
+void main(){
+
+    int x = 4;
+
+    switch(x){
+        case 1 :{printf("one\n");
+        
+        }
+        break;
+    case 2 :{printf("two\n");
+        
+        }
+        break;
+    case 3 :{printf("three\n");                 // switch control statement is readable 
+        
+        }
+        break;
+    case 4 :{printf("four\n");
+        
+        }
+        break;
+    case 5 :{printf("five\n");
+        
+        }
+        break;
+
+        default :
+        printf("In default\n");
+    
+    }        
+        
+}
+
